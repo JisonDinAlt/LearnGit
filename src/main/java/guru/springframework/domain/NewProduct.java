@@ -10,7 +10,7 @@ public class NewProduct {
     private Integer id;
 
     @Version
-    private Float version;
+    private Integer version;
 
     private String productId;
     private String description;
@@ -25,11 +25,11 @@ public class NewProduct {
         this.description = description;
     }
 
-    public Float getVersion() {
+    public Integer getVersion() {
         return version;
     }
 
-    public void setVersion(Float version) {
+    public void setVersion(Integer version) {
         this.version = version;
     }
 
